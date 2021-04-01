@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.instructions-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.instructions-image {
+  width: 50vw;
+}
+.instructions-image-1 {
+  width: 50vw;
+  position: relative;
+  bottom: 3px;
+}
+
+.circle.active {
+  background: #D79F7B;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 5px 20px 0 0;
+}
+.circle {
+  background: #518B9D;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 5px 20px 0 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.instructions-steps {
+  width: 30vw;
+  margin: 100px auto;
+}
+
+.text {
+  width: 300px;
+  margin: 0;
+}
+
+.title {
+  position: relative;
+  left: 35px;
+  font-weight: bold;
+}
+.instructions-btn {
+  margin: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #d79f7b;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
+  left: 210px;
+}
+
+.instructions-btn:active {
+  transform: scale(.98);
+}
+.instructions-btn:focus {
+  outline: none;
+}
+.instructions-btn-final {
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: #d79f7b;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
+  left: 210px;
+}
+
+.instructions-btn-final:active {
+  transform: scale(.98);
+}
+.instructions-btn-final:focus {
+  outline: none;
+}
